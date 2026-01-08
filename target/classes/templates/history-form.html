@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>WheelShare - Rental History</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body class="bg-dark text-light d-flex align-items-center" style="min-height: 100vh;">
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card bg-dark-subtle border-0 rounded-4 shadow-lg fade-in-up">
+                <div class="card-body p-4">
+                    <h1 class="h4 mb-2 text-center">Check your rental history</h1>
+                    <p class="text-muted small mb-4 text-center">
+                        Enter the email address you used while booking your cars on WheelShare.
+                    </p>
+                    <form th:action="@{/history}" method="get" class="vstack gap-3">
+                        <div>
+                            <label class="form-label small">Email address</label>
+                            <input type="email" name="email" class="form-control rounded-3" required>
+                        </div>
+                        <button type="submit" class="btn btn-success rounded-pill w-100">View history</button>
+                        <a th:href="@{/cars}" class="btn btn-outline-light rounded-pill w-100">Back to cars</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
