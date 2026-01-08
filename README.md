@@ -1,46 +1,52 @@
 #WheelShare – Car Rental Management System
 
 
-WheelShare is a web-based car rental management application developed using Java Spring Boot and MySQL with a responsive frontend built using HTML, CSS, JavaScript, and Bootstrap.
-The system enables users to browse available vehicles, rent cars, return them, and view their rental history efficiently.
+•WheelShare is a web-based car rental management application developed using Java Spring Boot and MySQL with a responsive frontend built using HTML, CSS, JavaScript, and Bootstrap.
+•The system enables users to browse available vehicles, rent cars, return them, and view their rental history efficiently.
+
+________________________________________________________________________________________________________________________________________________________________________________
 
 #Key Features
 
 
--Display all available cars for rent
+•Display all available cars for rent
 
--Rent a car by providing customer details and rental duration
+•Rent a car by providing customer details and rental duration
 
--Automatic calculation of rental charges based on selected dates
+•Automatic calculation of rental charges based on selected dates
 
--Option to mark a rented vehicle as returned
+•Option to mark a rented vehicle as returned
 
--View complete rental history using customer email
+•View complete rental history using customer email
 
--Mobile-friendly and responsive UI with Bootstrap
+•Mobile-friendly and responsive UI with Bootstrap
 
--Persistent data storage using MySQL and JPA/Hibernate
+•Persistent data storage using MySQL and JPA/Hibernate
+
+________________________________________________________________________________________________________________________________________________________________________________
 
 #Tech Stack
 
 
--Java
+•Java
 
--Spring Boot
+•Spring Boot
 
--Spring MVC
+•Spring MVC
 
--Spring Data JPA
+•Spring Data JPA
 
--MySQL
+•MySQL
 
--Thymeleaf
+•Thymeleaf
 
--HTML, CSS, JavaScript
+•HTML, CSS, JavaScript
 
--Bootstrap 5
+•Bootstrap 5
 
--Maven
+•Maven
+
+________________________________________________________________________________________________________________________________________________________________________________
 
 ## Project Structure
 
@@ -91,7 +97,7 @@ WheelShare-Car-Rental-Management/
     └── test/
         └── (auto-generated test files)
 
-
+________________________________________________________________________________________________________________________________________________________________________________
         
 ## 👤 Author
 
